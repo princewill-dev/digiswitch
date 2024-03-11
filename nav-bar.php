@@ -16,13 +16,21 @@
 
 				<!-- HEADER BLACK LOGO -->
 				<div class="desktoplogo">
+<<<<<<< HEAD
 					<a href="index.php" class="logo-black"><img src="images/ds-logo.png" alt="logo"></a>
+=======
+					<a href="index.php" class="logo-black"><img src="images/logo-purple.png" alt="logo"></a>
+>>>>>>> 10f113d3730da9276afd6e1eaa8fc84b990efc23
 				</div>
 
 
 				<!-- HEADER WHITE LOGO -->
 				<div class="desktoplogo">
+<<<<<<< HEAD
 					<a href="index.php" class="logo-white"><img src="images/ds-logo.png" alt="logo"></a>
+=======
+					<a href="index.php" class="logo-white"><img src="images/logo-purple-white.png" alt="logo"></a>
+>>>>>>> 10f113d3730da9276afd6e1eaa8fc84b990efc23
 				</div>
 
 
