@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple POST Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label, input {
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Order Form</h1>
+    <form action="https://bixmerchant.com/web/v1/checkout/" method="POST">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" value="2" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="demo@email.com" required>
+
+        <label for="item">Item:</label>
+        <input type="text" id="item" name="item" value="Nike Shoe" required>
+
+        <input type="hidden" name="success_url" value="https://digiswitch.tech/code-tests/form.html">
+
+        <input type="hidden" name="link_id" value="bgc040x9l5r6l02">
+
+        <input type="submit" value="Submit Order">
+    </form>
+</body>
+</html>
